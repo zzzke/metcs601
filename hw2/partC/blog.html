@@ -1,0 +1,176 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A layout example that shows off a blog page with a list of posts.">
+    <title>Blog &ndash; Layout Examples &ndash; Pure</title>
+    
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+    <!--[if lte IE 8]>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-old-ie-min.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
+    <!--<![endif]-->
+    <link rel="stylesheet" href="blog.css">
+</head>
+<body>
+
+<div id="layout" class="pure-g">
+    <div class="sidebar pure-u-1 pure-u-md-1-6">
+        <div class="header">
+            <h1 class="brand-title">Dream Car Blog</h1>
+
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a class="pure-button" href="#">Donate</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="content pure-u-1 pure-u-md-5-6">
+        <div>
+            <!-- A wrapper for all the blog posts -->
+            <div class="posts">
+                <h1 class="content-subhead">Introduction</h1>
+
+                <!-- A single blog post -->
+                <section class="post">
+                    <header class="post-header">
+                        <img width="48" height="48" alt="me" class="post-avatar" src="img/me.jpg">
+
+                        <h2 class="post-title"></h2>
+
+                        <p class="post-meta">
+                            By <a href="#" class="post-author">Ke Zhao</a>
+                        </p>
+                    </header>
+
+                    <div class="post-description">
+                        <p>
+                            The Mercedes S-Class Coupe is a more comfort-oriented coupe with adaptive Airmatic air suspension as standard. Optionally, for 5,355 euro, the Mercedes owner can choose the famous Magic Body Control suspension with curve tilting function. The body tilts to the inside of the turn by up to 2.65 degrees and thereby reduces the transverse forces perceived by the passengers. The system recognizes bends with the help of a stereo camera behind the windscreen and after the facelift the new stereo camera offer better performance and works at speeds up to 180 km/h compared to 140 km/h before. The curve tilting function is mainly a comfort improvement.
+                        </p>
+                    </div>
+                </section>
+            </div>
+
+            <div class="posts">
+                <h1 class="content-subhead">Recent Posts</h1>
+
+                <section class="post">
+                    <header class="post-header">
+                        <img width="48" height="48" alt="brazil" class="post-avatar" src="img/bmw.jpg">
+
+                        <h2 class="post-title">Color Of The Gods – Blue Hera Mica Metallic Returns!</h2>
+
+                        <p class="post-meta">
+                            By <a class="post-author" href="#">James Bachici</a> under <a class="post-category post-category-soccer" href="#">BMW</a>
+                        </p>
+                    </header>
+
+                    <div class="post-description">
+                        <p>
+                            Back in late 2016 I wrote a piece introducing to the world a true one-of-a-kind F80 M3 in a color dubbed by BMW Individual as Blue Hera Mica Metallic – 1 of 1.
+
+                            
+Since that post, folks have been dreaming of ordering their very own F80 M3 in this gorgeous blue color. One of our readers, Scott Smith from New York, saw the article, fell in love, stopped dreaming and started working on figuring out the ins and outs required to order his next F80 M3 in Blue Hera Mica.
+                        </p>
+                    </div>
+                </section>
+                <section class="post">
+                    <header class="post-header">
+                        <img width="48" height="48" alt="Durant" class="post-avatar" src="img/chevy.jpg">
+
+                        <h2 class="post-title">Stunning 1955 Chevy 210 from Australia that took 21 years to build!</h2>
+
+                        <p class="post-meta">
+                            By <a class="post-author" href="#">Ben Hosking</a> under <a class="post-category post-category-basketball" href="#">Super Chevy</a>
+                        </p>
+                    </header>
+
+                    <div class="post-description">
+                        <p>
+                            This humble scribe has been lucky enough to come into contact with thousands of high-quality feature cars over the last 15 years or so. The average gestation period for a decent build seems to be around five years, give or take. But some take longer ... much longer!
+
+For Aussie Bill Sharkey, the journey to trophy-winning completion took a whopping 21 years, with a lot of literal chopping and changing along the way. The story begins with a rusty hulk of a rolling shell that needed plenty of attention.
+                        </p>
+                    </div>
+                </section>
+
+                <section class="post">
+                    <header class="post-header">
+                        <img width="48" height="48" alt="world cup" class="post-avatar" src="img/sc3.jpg">
+
+                        <h2 class="post-title">This is the new BMW 8 Series, the fierce rival of the Mercedes S-Class Coupe</h2>
+
+                        <p class="post-meta">
+                            By <a class="post-author" href="#">RAZVAN MAGUREANU</a> under <a class="post-category post-category-soccer" href="#">Mercedes</a>
+                        </p>
+                    </header>
+
+                    <div class="post-description">
+                        <div class="post-images pure-g">
+                            <div class="pure-u-1-2 pure-u-md-1-2">
+                                <a href="#">
+                                    <img alt="Benz"
+                                         class="pure-img-responsive"
+                                         src="img/sc3.jpg">
+                                </a>
+
+                                <div class="post-image-meta">
+                                    <h3>Mercedes-AMG S 63 4Matic Coupe </h3>
+                                </div>
+                            </div>
+
+                            <div class="pure-u-1-2 pure-u-md-1-2">
+                                <a href="#">
+                                    <img alt="bmw"
+                                         class="pure-img-responsive"
+                                         src="img/bmw845.jpg">
+                                </a>
+
+                                <div class="post-image-meta">
+                                    <h3>BMW M850i xDrive </h3>
+                                </div>
+                            </div>
+                            <div class="pure-u-1-2 pure-u-md-1-2">
+                                <a href="#">
+                                    <img alt="benz"
+                                         class="pure-img-responsive"
+                                         src="img/ms8.jpg">
+                                </a>
+
+                                <div class="post-image-meta">
+                                    <h3>Mercedes-AMG S 63 4Matic Coupe </h3>
+                                </div>
+                            </div>
+
+                            <div class="pure-u-1-2 pure-u-md-1-2">
+                                <a href="#">
+                                    <img alt="bmw"
+                                         class="pure-img-responsive"
+                                         src="img/bmw850.jpg">
+                                </a>
+
+                                <div class="post-image-meta">
+                                    <h3>BMW M850i xDrive</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+</body>
+</html>
